@@ -1,0 +1,13 @@
+{
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "MONGODB_URI": "@mongodb_uri",
+    "JWT_SECRET": "@jwt_secret",
+    "DISCORD_WEBHOOK_URL": "@discord_webhook_url",
+    "MAINTENANCE_MODE": "@maintenance_mode"
+  }
+}
